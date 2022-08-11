@@ -1,0 +1,5 @@
+Software/Hardware Requirements
+
+To run this website user’s need laptop of any os Like:-
+Windows/Linux/Mac
+And to view the coding part users need an IDE like visual studio code which can open any language code like html,css and js.

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Imgencoptions</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <div class="msg">
+        <h1>Please select the algorithm for image encrytion</h1>
+      </div>
+      <select
+        name="pages"
+        id=""
+        class="imgencdrop"
+        placeholder="Select option"
+        onchange="window.location.href=this.value;"
+      >
+        <option value="">Select option</option>
+        <option value="imageenc.html">
+          Block Displacement and block Cipher
+        </option>
+        <option value="rgbenc.html">
+          RGB pixel Transportation and shuffling
+        </option>
+        <option value="cryptoenc.html">Color visual cryptography</option>
+        <option value="pixelenc.html">
+          Explosive inter pixel displacement
+        </option>
+        <option value="permutationenc.html">Permutation based</option>
+        <option value="blockenc.html">Block based Transformation</option>
+      </select>
+    </main>
+  </body>
+</html>

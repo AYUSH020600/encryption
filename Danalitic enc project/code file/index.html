@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cryptsystem</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <ul>
+          <li><a href="about.html">About </a></li>
+          <li><a href="contact.html">Contact us </a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="class1">
+        <h1>Welcome to CryptSystem</h1>
+      </div>
+      <div class="container">
+        <h2>For encrytion and decryption</h2>
+
+        <div class="selectbox">
+          <div class="optionscontainer">
+            <div class="option" onclick="window.location='imgencoptions.html'">
+              <input
+                type="radio"
+                class="radio"
+                id="iencryption"
+                name="category"
+              />
+              <label for="iencryption">Image Encryption</label>
+            </div>
+            <div class="option" onclick="window.location='imagedec.html'">
+              <input
+                type="radio"
+                class="radio"
+                id="idecryption"
+                name="category"
+              />
+              <label for="idecryption">Image Decryption</label>
+            </div>
+            <div class="option" onclick="window.location='textenc.html'">
+              <input
+                type="radio"
+                class="radio"
+                id="tencryption"
+                name="category"
+              />
+              <label for="tencryption">Text Encryption</label>
+            </div>
+            <div class="option" onclick="window.location='textdec.html'">
+              <input
+                type="radio"
+                class="radio"
+                id="tdecryption"
+                name="category"
+              />
+              <label for="tdecryption">Text Decryption</label>
+            </div>
+          </div>
+          <div class="selected">
+            select the type of work you would like to do
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
